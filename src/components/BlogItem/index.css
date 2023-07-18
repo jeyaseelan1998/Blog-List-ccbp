@@ -1,1 +1,38 @@
 /* Write your CSS code here */
+.blog-item-container {
+  padding: 0 25px;
+}
+
+.separator {
+  border: 1px solid #9aa5b1;
+  margin: 15px 0;
+}
+
+.blog-item-container div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog-item-container div h1 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #12022f;
+  margin: 0;
+}
+
+.blog-item-container div p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #9aa5b1;
+  margin: 0;
+}
+
+.blog-item-container .blog-description {
+  font-size: 14px;
+  font-weight: 500;
+  color: #9aa5b1;
+  margin-top: 10px;
+  margin-bottom: 0;
+  width: 80%;
+}
